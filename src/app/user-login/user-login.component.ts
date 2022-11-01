@@ -20,7 +20,7 @@ export class UserLoginComponent implements OnInit {
     console.log(this.user)
     this.loginuserservice.loginUser(this.user).subscribe(data=>{
       alert("Ingresaste!")
-    },error=>alert("Clave incorrecta"))
+    },error=>alert("Clave incorrecta"));
   }
 
 }
