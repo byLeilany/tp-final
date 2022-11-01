@@ -1,3 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <!-- <link rel="stylesheet" type="text/css" href="fuentes.css" /> -->
+        <!-- <link rel="stylesheet" type="text/css" href="estilo.css" /> -->
+        <script language="javascript" type="text/javascript" src="test.js"></script>
+        <link rel="stylesheet" type="text/css" href="app.component.css" />
+        <title>Daniela Meléndez</title>
+
+    </head>
+
+    <body>
+        <header>
+          
+          
+          <img id="logo" src="/assets/APLogo-20-20.png">
+          <!-- <div id="rrss">
+          </div> -->
+          <!-- <button onclick="window.open('logIn.html', '_blank')">Hola</button> -->
+          <!-- "window.open('logIn.html', '_blank')" -->
+          <!-- <button class="rrss button" onclick="JavaScript:newPopup('/app/user-login/user-login.component.html');"  >Log In</button> onclick="JavaScript:newPopup('logIn.html');"  -->
+          <!-- <a mat-button routerLink="/user-login" routerLinkActive="mat-accent">Login</a> -->
+
+          <button class="btn btn-primary button" (click)="open(content)"> Log In </button>
+          
+          <a href="https://www.instagram.com/littleglobito/" target="_blank"><img id="insta" class="rrss" src="/assets/insta.png"></a>
+          <a href="mailto:leilanymel@gmail.com"><img id="mail" class="rrss" src="/assets/mail.png"></a>
+        
+        </header>
+
+        <ng-template #content let-modal>
+          <div class="modal-header">
+            <h1>Iniciar sesión</h1>
+          </div>
+          <div class="modal-body">
+            <app-user-login></app-user-login>
+          </div>
+        </ng-template>
+        
+        <div id="yop">
+            <img src="/assets/perfil.png" alt="Foto de perfil">
+            <h1>
+                Daniela Meléndez
+            </h1>
+            <p>Estudiante de Ciencias de la Computación</p>
+            <p>Universidad de Buenos Aires</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="#SEC_quien_soy" id="LINK_quien_soy">|  Quién soy?</a>
+            <a href="#SEC_edu" id="LINK_edu">|  Educación</a> 
+            <a href="#SEC_experiencia" id="LINK_experiencia">|  Experiencia</a>
+            <a href="#SEC_skills" id="LINK_skills">|    Skills</a>
+            <a href="#SEC_arte" id="LINK_arte">|    Arte</a> 
+            <!-- <a href="#footer">Contacto</a>  -->
+        </nav>
+
+        <!-- BOTON 1 -->
+        <section id="SEC_quien_soy">
+            <div class="cajita">
+                <h2>Quién soy?</h2>
+                <a class="botonConTit emojiBoton conLogin" href="#">✏️</a>
+                <p id="acercaDe">Me llamo Daniela, tengo 22 años y estudio computación. Hago dibujos en mi tiempo libre y me la vivo escuchando música. Me llamo Daniela, tengo 22 años y estudio computación. Hago dibujos en mi tiempo libre y me la vivo escuchando música.</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                  <h3>ME GUSTA:</h3>
+                  <ul id="UL_likes">
+                    <li>Café</li>
+                    <li>Ping Pong</li>
+                    <li>Bad Bunny</li>
+                  </ul>  
+                </div>
+                <div class="column"> 
+                  <h3>NO ME GUSTA:</h3>
+                  <ul id="UL_dislikes">
+                    <li>Verano</li>
+                    <li>Coco</li>
+                    <li>Ruido</li>
+                  </ul>  
+                </div>
+              </div>
+        </section>
+
+        <hr>
+
+        <!-- BOTON 3 -->
+        <section id="SEC_experiencia">
+            <div class="cajita">
+                <h2>Experiencia:</h2>
+                <a class="botonConTit emojiBoton conLogin" href="#">➕</a>
+
+                <div class="newEdu">
+                    <p>Bachiller en Ciencias - U.E. Colegio Maria Santisima (2012-2017)</p>
+                
+                    <a class="emojiBoton conLogin" href="#">🗑️</a>
+                    <a class="emojiBoton conLogin" href="#">✏️</a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- BOTON 2 -->
+        <section id="SEC_edu">
+            <article>
+                <h2>Educación:</h2>
+                <div class="cajita">
+                    <h3>Universidad:</h3>
+                    <a class="botonConTit emojiBoton conLogin" href="#">➕</a>
+
+                    <div class="newEdu">
+                        <p>Licenciatura en Ciencias de la Computacion - Universidad de Buenos Aires (2019-actual)</p>
+                        <!-- <p>Robert John "Bob" Odenkirk es un actor, comediante, guionista, director y productor estadounidense. Es conocido por haber sido uno de los creadores y el coprotagonista de la comedia Mr. Show with Bob and David de HBO, por sus papeles recurrentes en Breaking Bad, Nobody, The Larry Sanders Show y por su protagónico en el spin-off Better Call Saul Robert John "Bob" Odenkirk es un actor, comediante, guionista, director y productor estadounidense. Es conocido por haber sido uno de los creadores y el coprotagonista de la comedia Mr. Show with Bob and David de HBO, por sus papeles recurrentes en Breaking Bad, Nobody, The Larry Sanders Show y por su protagónico en el spin-off Better Call Saul</p> -->
+                        
+                        <a class="emojiBoton conLogin" href="#">🗑️</a>
+                        <a class="emojiBoton conLogin" href="#">✏️</a>
+                    </div>
+                </div>
+
+                <div class="cajita">
+                    <h3>Bachiller:</h3>
+                    <a class="botonConTit emojiBoton conLogin" href="#">➕</a>
+
+                    <div class="newEdu">
+                        <p>Bachiller en Ciencias - U.E. Colegio Maria Santisima (2012-2017)</p>
+                        
+                        <a class="emojiBoton conLogin" href="#">🗑️</a>
+                        <a class="emojiBoton conLogin" href="#">✏️</a>
+                    </div>
+
+
+                    <div class="newEdu">
+                        <p>Colegio Maria Santisima 2005-2017  Santisima 2005-2017</p>
+                        
+                        <a class="emojiBoton conLogin" href="#">🗑️</a>
+                        <a class="emojiBoton conLogin" href="#">✏️</a>
+                    </div>
+                    
+                </div>
+            </article>
+
+            <div class="cajita">
+                <h2>Cursos:</h2>
+                <a class="botonConTit emojiBoton conLogin" href="#">➕</a>
+
+                <div class="newEdu">
+                    <p>Bachiller en Ciencias - U.E. Colegio Maria Santisima (2012-2017)</p>
+                    
+                    <a class="emojiBoton conLogin" href="#">🗑️</a>
+                    <a class="emojiBoton conLogin" href="#">✏️</a>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <!-- BOTON 4 -->
+        <section id="SEC_skills">
+            <div class="cajita">
+                <h2>Habilidades:</h2>
+                <a class="botonConTit emojiBoton conLogin" href="#">➕</a>
+                
+                <div class="newSkill">
+                    <h3>INGLÉS: </h3>
+                    <progress value="9" max="10"></progress>
+                    <a class="botonConTit emojiBoton conLogin" href="#">🗑️</a>
+                    <a class="botonConTit emojiBoton conLogin" href="#">✏️</a>
+                </div>
+
+                <div class="newSkill">
+                    <h3>INGLÉS: </h3>
+                    <progress value="9" max="10"></progress>
+                    <a class="botonConTit emojiBoton conLogin" href="#">🗑️</a>
+                    <a class="botonConTit emojiBoton conLogin" href="#">✏️</a>
+                </div>
+
+
+                <!-- <div class="newEdu">
+                    <p>Bachiller en Ciencias - U.E. Colegio Maria Santisima (2012-2017)</p>
+                    
+                    <a class="emojiBoton conLogin" href="#">🗑️</a>
+                    <a class="emojiBoton conLogin" href="#">✏️</a>
+                </div> -->
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- BOTON 5 -->
+        <!-- <section id="SEC_arte">
+            <article>
+                <p>ver forma de poner mis fotos de instagram aca</p>
+            </article>
+        </section> -->
+
+        <!-- <footer id="footer">
+            <p class="firulete">~</p> <a href="mailto:leilanymel@gmail.com">leilanymel@gmail.com</a> <p class="firulete">~</p>
+            <p>Hecho en 2022</p>
+        </footer> -->
+
+
+    </body>
+</html>
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -5,7 +211,7 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 <style>
   :host {
@@ -301,8 +507,8 @@
     }
   }
 </style>
-
-<!-- Toolbar -->
+-->
+<!-- Toolbar 
 <div class="toolbar" role="banner">
   <img
     width="40"
@@ -326,8 +532,9 @@
 </div>
 
 <div class="content" role="main">
+  -->
 
-  <!-- Highlight Card -->
+  <!-- Highlight Card 
   <div class="card highlight-card card-small">
 
     <svg id="rocket" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">
@@ -349,8 +556,9 @@
     </svg>
 
   </div>
+-->
 
-  <!-- Resources -->
+  <!-- Resources 
   <h2>Resources</h2>
   <p>Here are some links to help you get started:</p>
 
@@ -385,8 +593,8 @@
     </a>
 
   </div>
-
-  <!-- Next Steps -->
+-->
+  <!-- Next Steps 
   <h2>Next Steps</h2>
   <p>What do you want to do next with your app?</p>
 
@@ -423,8 +631,9 @@
       <span>Build for Production</span>
     </button>
   </div>
+-->
 
-  <!-- Terminal -->
+  <!-- Terminal 
   <div class="terminal" [ngSwitch]="selection.value">
       <pre *ngSwitchDefault>ng generate component xyz</pre>
       <pre *ngSwitchCase="'material'">ng add @angular/material</pre>
@@ -433,8 +642,8 @@
       <pre *ngSwitchCase="'test'">ng test</pre>
       <pre *ngSwitchCase="'build'">ng build</pre>
   </div>
-
-  <!-- Links -->
+-->
+  <!-- Links 
   <div class="card-container">
     <a class="circle-link" title="Find a Local Meetup" href="https://www.meetup.com/find/?keywords=angular" target="_blank" rel="noopener">
       <svg xmlns="http://www.w3.org/2000/svg" width="24.607" height="23.447" viewBox="0 0 24.607 23.447">
@@ -451,8 +660,8 @@
       </svg>
     </a>
   </div>
-
-  <!-- Footer -->
+-->
+  <!-- Footer 
   <footer>
       Love Angular?&nbsp;
       <a href="https://github.com/angular/angular" target="_blank" rel="noopener"> Give our repo a star.
@@ -472,7 +681,7 @@
   </svg>
 
 </div>
-
+-->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -481,4 +690,6 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<!--
 <router-outlet></router-outlet>
+-->

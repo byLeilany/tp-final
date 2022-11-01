@@ -1,0 +1,387 @@
+
+body {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-style: bold; */
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #C7CDC8;
+    margin: 0%;
+}
+
+
+
+header {
+    width: 100%;
+    height: 3.2em;
+    padding: 1%;
+    /* height: 100%; */
+    /* position: relative;
+    overflow: hidden; */
+    background-color: #ac1426;
+}
+
+header img{
+    height: 120%;
+    /* width: 100%; */
+}
+
+.rrss{
+    height: 120%;
+    float: right;
+    margin-left: 0.5%;
+}
+
+#insta{
+    filter: invert(100%);
+}
+#mail{
+    filter: invert(100%);
+}
+
+.button {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: MADE TOMMY;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    background-color: #3874cf;
+    float: right;
+    margin-left: 0.5%;
+    height: 125%;
+  }
+
+
+
+#yop {
+    width: 100%;
+    padding: 10% 0% 4% 0%;
+    display: inline-block;
+    text-align: center;
+    /* margin: 0% 2% 0% 2%; */
+    background-color: violet;
+}
+
+#yop p {
+    margin: 0%;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1em;
+}
+
+h1{
+    margin: 0.5%;
+    font-family: Hustle Bright;
+    color:#ac1426;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.navbar {
+    display: inline-block;
+    text-align: center;
+    background-color: #ac1426;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+
+.navbar a {
+    font-family: MADE TOMMY;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 0.7em 1.7em 0.8em 0.7em;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+/* rayita */
+hr {
+    width: 100%;
+    border: none;
+    height: 0.1em;
+    background-color: rgb(97, 97, 97); /* Modern Browsers */
+}
+
+h2{
+    display: inline-block;
+
+    font-size: 3em;
+    margin: 0.5% 0.5% 3% 0.5%;
+    font-family: Hustle Bright;
+    color:#ac1426;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+    font-size: 2em;
+    font-family: MADE TOMMY;
+    color:#ac1426;
+}
+
+section {
+    padding: 5%;
+    /* background-color: #bea2a6; */
+}
+
+section p {
+    font-size: 1.17em;
+    text-indent: 2em;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* .conLogin{
+    display: none;
+} */
+
+.cajita{
+    width: 100%;
+    /* background-color: #3874cf; */
+}
+
+.emojiBoton{
+    text-decoration: none;
+    float: right;
+    margin-left: 0.75%;
+    /* margin-top: 1em; */
+    /* margin-top: 1.1em; */
+}
+
+.botonConTit{
+    margin-top: 1.25em;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    /* padding: 10px; */
+}
+.row{
+    box-align: center;
+    display: flex;
+    justify-content: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* quien soy */
+
+#SEC_quien_soy h3{
+    text-align: center;
+}
+
+#SEC_quien_soy ul {
+    list-style-position: inside;
+}
+
+#UL_likes {
+    list-style-image: url('/assets/check.svg');
+}
+#UL_dislikes {
+    list-style-image: url('/assets/x.svg');
+}
+
+/* --------------- edu ---------------- */
+
+#SEC_edu h3{
+    margin: 1% 0% 2% 5%;
+    display: inline-block;
+}
+
+.newEdu{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.newEdu p{
+    width: 77%;
+    text-indent: 0em;
+    display: inline-block;
+    text-align: justify;
+    margin-left: 8%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* background-color: aqua; */
+}
+
+/* .newEdu a{
+    text-decoration: none;
+    float: right;
+    margin-left: 0.75%;
+} */
+
+
+
+
+
+/* #SEC_quien_soy{
+    display: block;
+}
+
+#SEC_edu{
+    display: none;
+}
+
+#SEC_experiencia{
+    display: none;
+}
+
+#SEC_skills{
+    display: none;
+}
+
+#SEC_arte{
+    display: none;
+} */
+
+/* ------------------- skills ------------------- */
+.progress {
+    /* width: 50%; */
+    margin-top: 10em;
+    display: inline;
+}
+
+progress{
+    /* background-color:pink; */
+    margin-left: 2em;
+    width: 50%;
+    height: 3em;
+}
+
+.newSkill{
+    width: 100%;
+}
+
+#SEC_skills h3{
+    margin: 1% 0% 2% 5%;
+    display: inline-block;
+}
+
+
+
+
+#footer {
+    background-color: #ac1426;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+}
+
+#footer *{
+    margin: 0.2%;
+    color: white;
+    /* font-family: MADE TOMMY; */
+    font-size: 1em;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+.firulete {
+    display: inline;
+}
+
+/* fuentes */
+
+@font-face {
+    font-family: Hustle Bright;
+    src: url("/assets/fonts/Hustle Bright.otf") format("opentype"), 
+         url('/assets/fonts/Hustle Bright.ttf') format('truetype'),
+         url("/assets/fonts/Hustle Bright.woff") format('woff'),
+         url("/assets/fonts/Hustle Bright.woff2") format('woff2');
+    font-weight:normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Hustle Bright;
+    src: url("/assets/fonts/Hustle Bright Italic.otf") format("opentype"), 
+         url('/assets/fonts/Hustle Bright Italic.ttf') format('truetype'),
+         url("/assets/fonts/Hustle Bright Italic.woff") format('woff'),
+         url("/assets/fonts/Hustle Bright Italic.woff2") format('woff2');
+    font-weight:normal;
+    font-style: italic;
+}
+
+
+
+/* 1 */
+@font-face {
+    font-family: MADE TOMMY Outline;
+    src: url("/assets/fonts/MADE TOMMY Bold Outline.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 2 */
+@font-face {
+    font-family: MADE TOMMY;
+    src: url("/assets/fonts/MADE TOMMY Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 3 */
+@font-face {
+    font-family: MADE TOMMY;
+    src: url("/assets/fonts/MADE TOMMY Bold Light.otf") format("opentype");
+    font-weight:lighter;
+    font-style: normal;
+}
+
+/* 4 */
+@font-face {
+    font-family: MADE TOMMY Outline;
+    src: url("/assets/fonts/MADE TOMMY Medium Outline.otf") format("opentype");
+    font-weight: medium;
+    font-style: normal;
+}
+
+/* 5 */
+@font-face {
+    font-family: MADE TOMMY;
+    src: url("/assets/fonts/MADE TOMMY Medium.otf") format("opentype");
+    font-weight: medium;
+    font-style: normal;
+}
+
+/* 6 */
+@font-face {
+    font-family: MADE TOMMY Outline;
+    src: url("/assets/fonts/MADE TOMMY Outline.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 7 */
+@font-face {
+    font-family: MADE TOMMY;
+    src: url("/assets/fonts/MADE TOMMY.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* src: url('fonts/EntezareZohoor2.eot'), 
+url('fonts/EntezareZohoor2.ttf') format('truetype'), 
+url('fonts/EntezareZohoor2.svg') format('svg');
+url("fonts/awesome-font.woff") format('woff');
+url('myfont.woff2') format('woff2'); */
